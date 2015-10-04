@@ -1,4 +1,4 @@
-var ContactView = React.createClass({
+var ContactsView = React.createClass({
   propTypes: {
     contacts: React.PropTypes.array.isRequired,
     newContact: React.PropTypes.object.isRequired,

@@ -20,7 +20,7 @@ function setState(changes) {
   Object.assign(state, changes);
   
   ReactDOM.render(
-    React.createElement(ContactView, Object.assign({}, state, {
+    React.createElement(ContactsView, Object.assign({}, state, {
       onNewContactChange: updateNewContact,
       onNewContactSubmit: submitNewContact,
     })),
